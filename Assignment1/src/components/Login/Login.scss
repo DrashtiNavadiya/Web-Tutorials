@@ -1,0 +1,17 @@
+// src/authentication/components/Login/Login.scss
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vh;
+  
+    .login-form {
+      width: 100%;
+      margin-top: 1em;
+  
+      .login-button {
+        margin-top: 1em;
+      }
+    }
+  }
+  

@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #3498db;
+    color: white;
+  
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  
+    .options {
+      display: flex;
+      gap: 1em;
+  
+      .login-button,
+      .signup-button {
+        padding: 0.5em 1em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+  
+      .login-button {
+        background-color: #2ecc71;
+        color: white;
+      }
+  
+      .signup-button {
+        background-color: #e74c3c;
+        color: white;
+      }
+    }
+  }
+  
